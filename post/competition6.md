@@ -2,4 +2,4 @@
 layout: default
 ---
 
-#스팀 할인 정보 
+## NCM VR OPEN CALL (진행 중)
