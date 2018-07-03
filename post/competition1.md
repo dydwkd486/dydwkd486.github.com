@@ -8,7 +8,7 @@ layout: default
 
 경진대회 소개
 
-![2016년도 농림 축산 경진 대회](https://dydwkd486.github.io/post/img/competition1-1.png)
+![2016년도 농림 축산 경진 대회](/post/img/competition1-1.png)
 
 제출 양식 : 서비스 아이디어 기획서 (Hwp)
 
