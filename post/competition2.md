@@ -4,8 +4,8 @@ layout: default
 
 ## 연구보고서 DB 활용대회
 
-#2D 네모의꿈
-#####게임프로그래밍(2)
+# 2D 네모의꿈
+##### 게임프로그래밍(2)
 
 <div class="row">
   <div class="col-sm-6"><img src="/post/img/competition1-1.png" alt="네모의꿈타이틀" class="img-responsive"></div>
