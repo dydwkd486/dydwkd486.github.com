@@ -14,7 +14,9 @@ layout: default
 </div>
 
 <div class="col-sm-6">
+
 ![이미지](/post/img/competition1-1.png)
+
 </div>
 
 
