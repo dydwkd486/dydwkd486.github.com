@@ -4,7 +4,7 @@ layout: default
 
 ## 웹프로그래밍(1)
 
-<button type="button" onclick="location.open('/post/school23/Endangered bird Infomation/index.html') ">제작한 웹 들어가기</button>
+<button type="button" onclick="window.open('/post/school23/Endangered bird Infomation/index.html') ">제작한 웹 들어가기</button>
 
 날짜 : 2016년 12월 19일 월요일 발표
 
