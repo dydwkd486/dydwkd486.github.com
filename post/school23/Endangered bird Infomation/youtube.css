@@ -1,0 +1,33 @@
+﻿section#main{
+	float:left;
+	 padding:5px; 
+     margin-top:20px;
+	 width:75%;
+}
+.pic div{ position:absolute; bottom:50px; left:16px; width:100%; font-size:80px; font-family:koverwatch}
+.pic{position:relative;
+    background-repeat:no-repeat; background-size:100% 200px;
+    background-image:url('picture/side5.jpg');
+	width:100%; height:200px; border-radius:10px;
+}
+#main h2{ margin-top:70px;}
+.contents{
+    border-top:5px double black; border-bottom:5px double black;
+    padding:10px; margin:20px 0px 20px 0px;
+    min-height:200px;
+}
+#extinct{
+    border:5px double black;
+    padding:10px; margin:20px 0px 20px 0px;
+    min-height:150px;
+}
+#endangerd{
+    border:5px double black;
+    padding:10px; margin:20px 0px 20px 0px;
+    min-height:150px;
+}
+#observation{
+    border:5px double black;
+    padding:10px; margin:20px 0px 20px 0px;
+    min-height:150px;
+}

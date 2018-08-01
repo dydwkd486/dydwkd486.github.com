@@ -1,0 +1,205 @@
+﻿section#main{
+	float:left;
+	 padding:5px; 
+     margin-top:20px;
+	 width:75%;
+}
+.pic div{ position:absolute; bottom:50px; left:16px; width:100%; font-size:80px; font-family:koverwatch}
+.pic{position:relative;
+    background-repeat:no-repeat; background-size:100% 200px;
+    background-image:url('picture/side1.jpg');
+	width:100%; height:200px; border-radius:10px;
+}
+#main h2{ margin-top:50px;}
+.contents{
+    border-top:5px double black; border-bottom:5px double black;
+    padding:10px; margin:20px 0px 20px 0px;
+    min-height:600px;
+}
+
+.contents_main{
+    border-top:5px double black; border-bottom:5px double black;
+    padding:10px; margin:0px 0px 50px 0px;
+	display:inline-flex;
+    //min-height:500px;
+}
+#div1{
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-image:url('nest.png'); background-size:300px 150px; background-repeat:no-repeat;
+    z-index:4;
+}
+#div2{
+    float:left;
+    width:600px;
+    height:300px;
+    margin:10px;
+    padding:10px;
+   /* border:1px solid black;*/
+}
+
+.contents div{float:left;}
+.main div{float:left;}
+.bird_content p{word-break:keep-all;}
+	#mask1 {  
+	  position:absolute;  
+	  z-index:9000;	 
+	  background-color:#000;  
+	  display:none;	 
+	  left:0;
+	  top:0;
+	}
+	.window1{
+	  display: none;
+	border-radius: 30px;
+	  position:absolute; 
+		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+		.window2{
+	   display: none;
+	  position:absolute; 
+border-radius: 30px; 
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window3{
+	   display: none;
+	  position:absolute;  
+border-radius: 30px;
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window4{
+	   display: none;
+border-radius: 30px;
+	  position:absolute;  
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window5{
+	   display: none;
+border-radius: 30px;
+	  position:absolute; 
+		height: 300px;	  
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window6{
+	   display: none;
+	  position:absolute;  
+border-radius: 30px;
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window7{
+	   display: none;
+border-radius: 30px;
+	  position:absolute;  
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window8{
+	   display: none;
+border-radius: 30px;
+	  position:absolute;  
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window9{
+	   display: none;
+border-radius: 30px;
+	  position:absolute;  
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window10{
+	   display: none;
+border-radius: 30px;
+	  position:absolute;  
+	  left:100px;
+	  		height: 300px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window11{
+	   display: none;
+border-radius: 30px;
+	  position:absolute;  
+	  		height: 300px;
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+			.window12{
+	   display: none;
+border-radius: 30px;
+	  position:absolute;
+		height: 300px;	  
+	  left:100px;
+	  top:100px;
+	   background-color:white;
+	  z-index:10000;
+	}
+	.bird_image{
+	width:300px;
+	height:300px;
+	display: inline-block;
+}
+.bird_content{
+top:-150px;
+width:400px;
+height:300px;
+overflow:auto;
+//background-color:gray;
+display: inline-block;
+}
+.bird_content p{line-height:28px;}
+.image_list {overflow: hidden;position: relative;height: 300px;width: 300px; border:1px solid #e1e1e1; cursor:pointer; clear:both;}
+.image_list .images {position:absolute; display:none; }
+.ul_label {width:600px;cursor:pointer;border-bottom:1px solid #e1e1e1;}
+.ul_label li {width:100px;float:left;border-right:1px solid #e1e1e1;padding:2px;}
+.ul_label li.fir {border-left:1px solid #e1e1e1;}
+
+.no_label {width:600px;cursor:pointer;}
+.no_label li {width:30px;height:30px;float:left}
+.image_list p{text-align:center;}
+
+.ul_label li.labelOverClass {font-weight:bold;}
+.bird_donate{display:inline;}
+.bird_donate h3{display:inline;}
+.bird_donate .donate,.bird_donate .close{float:right;}
+.images img{width:300px; height:300px;}
+.bird_image img{ border-radius:0px 30px;}

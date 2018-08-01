@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Endangered bird Infomation</title>
+    <link type="text/css" rel="stylesheet" href="donate.css">
+    <link type="text/css" rel="stylesheet" href="menu.css">
+    <link type="text/css" rel="stylesheet" href="menu2.css">
+    <script src="donate.js"></script>
+    <script src="menu2.js"></script>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" id="logo">
+            <img src="picture/logo.png" alt="logo">
+        </a>
+        <div id="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="define1.html" class="dropbtn">개요</a>
+					<div class="dropdown-content">
+						<a href="define2.html">분류</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="extinct.html" class="dropbtn">정보</a>
+                    <div class="dropdown-content">
+                        <a href="extinct.html">멸종</a>
+                        <a href="endangerd.html">멸종위기</a>
+                        <a href="observation.html">관찰필요</a>
+                    </div>
+                </li>
+                <li><a href="youtube.html">동영상</a></li>
+                <li class="dropdown"><a href="donate.html" class="dropbtn">기부</a>
+					<div class="dropdown-content">
+                        <a href="donate.html">파랑새기부</a>
+                    </div>
+				</li>
+                <li><a href="sitemap.html">사이트맵</a></li>
+            </ul>
+        </div>
+    </header>
+    <aside>
+        <div class="accordion">
+            <ul class="side">
+                <li>
+                    <a href="">기부</a>
+                    <ul>
+                        <li><a href="donate.html">파랑새기부</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <section id="main">
+        <div class="pic">
+            <div>기부</div>
+
+        </div>
+        <div class="contents">
+			<h1>파랑새 기부</h1>
+			<div class="donate">
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<img src="picture/asd.png" draggable="true" ondragstart="drag(event)" id="drag1" width="350" height="250">
+				</div>
+			</div>
+			<p>기부를 하시려면 파랑새를 둥지로 옮겨 주세요</p>
+			<div id="donation" class="donation">
+				<br><p class="thank">감사합니다.</p>
+				기부 금액: <input type="text" id="donate_money">
+				<input type="button" value="기부하기" onclick="money()">
+				<br><p id="sum"> </p> 
+			</div>
+        </div>
+    </section>
+    <div class="cute">
+	<div id="cute1" class="cute1" onmouseover="cute_over('cute1')" onmouseout="cute_out('cute1')"></div>
+	<div id="cute2" class="cute2" onmouseover="cute_over('cute2')" onmouseout="cute_out('cute2')"></div>
+	<div id="cute3" class="cute3" onmouseover="cute_over('cute3')" onmouseout="cute_out('cute3')"></div>
+    </div>
+    <div id="updown">
+        <div class="up"><a href="#header">§</a></div>
+        <div class="down"><a href="#footer">§</a></div>
+    </div>
+    <footer id="footer">
+        <br>성결대학교 멀티미디어공학부 20151100 엄미란 alfks7883@naver.com
+	<br>성결대학교 멀티미디어공학부 20120962 조용장 dydwkd48670@gmail.com
+    </footer>
+</body>
+</html>

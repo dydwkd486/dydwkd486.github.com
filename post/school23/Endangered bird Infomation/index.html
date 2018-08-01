@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <title>Endangered bird Information</title>
+    <link type="text/css" rel="stylesheet" href="index_style.css">
+    <link type="text/css" rel="stylesheet" href="menu.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+    function fnMove(seq){
+        var offset = $("#main" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 1000);
+    }
+</script>
+</head>
+<body>
+<embed src="audio/bird.mp3" autostart="true" loop="true" hidden="true">
+	<div id="main1">
+    <header id="header">
+        <a href="#" id="logo">
+            <img src="picture/indexlogo.png" alt="logo">
+        </a>
+    </header>
+		<div class="line">
+			<canvas id="myCanvas" width="700" height="70"></canvas>
+			<div class="line1">
+			<h2>more</h2>
+			 <img src="picture/point.png" onclick="fnMove('2')" alt="point">
+			</div>
+		</div>
+	</div>
+	<div id="main2">
+		<div class="define">
+		<h1>개요</h1>
+		<div class="contents">
+		<p>멸종위기종은 개체 수가 적어 멸종할 위험이 높은 종을 말한다. 많은 나라에서 멸종위기종을 보호하기 위해 법으로 사냥과 야생 서식지의 개발 등을 금지하고 있다. 하지만 법률로 보호받는 종은 절멸로 위협받는 생물 전체 가운데 얼마 되지 않으며, 대부분은 관심을 받지 않은 채 멸종하게 되는 경우가 많다. 멸종위기등급은 멸종의 위험도를 나타내는 지표이다.
+다음은 IUCN 적색목록 또는 IUCN 레드 리스트는 세계에서 가장 포괄적인 지구 식물, 동물 종의 보전 상태의 목록이다. </p>
+		</div>
+	</div>
+		<div class="endangered">
+		<h1>멸종된새</h1>
+		<div class="contents">
+		<img src="picture/멸종/도도새.jpg" width=100px height=100px />
+		<p>도도(Dodo)는 마다가스카르 동쪽의 모리셔스 섬에 생식했던 현재는 멸종한 조류이다. 도도과에 속하는 새는 로드리게스 도도 등 1종류가 더 있는데(현재는 모두 멸종되었으며, 박제도 남아있지 않다), 대체로 도도(새)라고 하면 모리셔스 섬의 도도를 지칭한다. 흰색 도도는 레위니옹섬 근처에 존재하는 것으로 잘못 알려진 적이 있었다.</p>
+		</div>
+	</div>
+	</div>
+		<div id="main3">
+		<div class="donate">
+		<h1>Donate</h1>
+		<div class="contents">
+		<img src="picture/donate_ex.png" height="250px" ></img>
+		</div>
+	</div>
+		<div class="youtube">
+		<h1>동영상</h1>		
+		<div class="contents">
+		<iframe  height="250" src="https://www.youtube.com/embed/ed4MR_kKtfk" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	</div>
+	<div id="comein">
+	<h1 onclick="location.href='home.html'">들어가기</h1>
+	</div>
+<script>
+var c=document.getElementById("myCanvas");
+var canvOK=1;
+try {c.getContext("2d");}
+catch (er) {canvOK=0;}
+if (canvOK==1)
+ {
+ var ctx=c.getContext("2d");
+    ctx.font="40px Verdana";
+    var grd3=ctx.createLinearGradient(200,20,240,120);
+    grd3.addColorStop(0,"black");
+    grd3.addColorStop("0.3","magenta");
+    grd3.addColorStop("0.6","blue");
+    grd3.addColorStop("0.9","green");
+    grd3.addColorStop(1,"wheat");
+    ctx.strokeStyle=grd3;
+    ctx.strokeText("Endangered bird Information",40,40); }
+</script>
+</body>
+</html>

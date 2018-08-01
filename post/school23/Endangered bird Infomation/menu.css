@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body
+{
+    background-image:url('picture/background1.jpg');
+    background-size:100% 91%;
+    min-width:1200px;
+    word-break:keep-all;
+background-repeat:no-repeat;
+}
+body:after{opacity:0.5!important;}
+body a{
+    text-decoration:none;color:black;
+}
+header{width:100%;}
+#logo{
+	position:relative; top:20px; left:30px;
+	display:inline; 
+}
+#logo img{width:200px; height:120px;}
+
+#menu{
+	position:absolute; width:70%; min-width:900px; top:5px; left:400px; 
+	margin-top:10px;
+}
+#menu li{ display: inline-block; padding:10px 5px; letter-spacing:4px; //border-right:1px solid #313843;
+            font-size:18px; width:120px;
+            font-weight:bold; text-align:center;
+}
+#menu li a{
+    color:black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top:10px;
+    min-width: 120px;
+    padding:3px;
+    border-radius:5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index:5;
+}
+.dropdown-content a{
+    color:gray;
+    font-size:12px;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+p{font-family:'Hanna',serif;}

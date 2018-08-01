@@ -1,0 +1,46 @@
+﻿section#main{
+	float:left;
+	 padding:5px; 
+     margin-top:20px;
+	 width:75%;
+}
+.pic div{ position:absolute; bottom:50px; left:16px; width:100%; font-size:80px; font-family:koverwatch}
+.pic{position:relative;
+    background-repeat:no-repeat; background-size:100% 200px;
+    background-image:url('picture/side4.jpg');
+	width:100%; height:200px; border-radius:10px;
+}
+#main h2{ margin-top:70px;}
+.contents{
+    border-top:5px double black; border-bottom:5px double black;
+    padding:10px; margin:20px 0px 20px 0px;
+   min-height:600px; overflow:auto;
+}
+
+.donate{display: inline-flex; background-image:url('picture/tree.png');}
+#div1{
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 50px 10px;
+    padding: 10px;
+    //border: 1px solid black;
+	margin-top: 80px;	
+ margin-left: 100px;
+    background-image:url('picture/nest.png'); background-size:200px 200px; background-repeat:no-repeat;
+    z-index:4;
+}
+#div2{margin-top: 100px;
+    float:left;
+    width:400px;
+    height:300px;
+    margin:10px;
+    padding:10px;
+    margin-top: 120px;	
+    margin-left: 200px;
+}
+.donation{opacity:0;width:700px;height:200px;background-image:url('picture/text.png'); padding-left:200px;
+	background-size:700px 200px;background-repeat:no-repeat;
+}
+.thank{font-size:25px;font-weight:bold; padding-left:70px;}

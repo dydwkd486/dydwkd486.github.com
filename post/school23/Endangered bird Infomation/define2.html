@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Endangered bird Infomation</title>
+    <link type="text/css" rel="stylesheet" href="define2_style.css">
+    <link type="text/css" rel="stylesheet" href="menu.css">
+    <link type="text/css" rel="stylesheet" href="menu2.css">
+    <script src="define_style.js"></script>
+    <script src="menu2.js"></script>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" id="logo">
+            <img src="picture/logo.png" alt="logo">
+        </a>
+        <div id="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li class="dropdown">
+					<a href="define1.html" class="dropbtn">개요</a>
+					<div class="dropdown-content">
+						<a href="define2.html">분류</a>
+					</div>
+                </li>
+                <li class="dropdown">
+                    <a href="extinct.html" class="dropbtn">정보</a>
+                    <div class="dropdown-content">
+                        <a href="extinct.html">멸종</a>
+                        <a href="endangerd.html">멸종위기</a>
+                        <a href="observation.html">관찰필요</a>
+                    </div>
+                </li>
+                <li><a href="youtube.html">동영상</a></li>
+                <li class="dropdown"><a href="donate.html" class="dropbtn">기부</a>
+					<div class="dropdown-content">
+                        <a href="donate.html">파랑새기부</a>
+                    </div>
+				</li>
+                <li><a href="sitemap.html">사이트맵</a></li>
+            </ul>
+        </div>
+    </header>
+    <aside>
+        <div class="accordion">
+            <ul class="side">
+                <li>
+                    <a href="define1.html">개요</a>
+                    <ul>
+                        <li><a href="define2.html">분류</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <section id="main">
+        <div class="pic">
+            <div>분류</div>
+        </div>
+        <div class="contents">
+			<div class="etc"><p>Endangered bird Information 사이트에서는 멸종된 종과 멸종위기 종, 관찰 및 보호가 필요한 종으로 총 3가지 분류로 나누어 서술하고 있습니다.
+				설명을 보려면 아래의 파일을 클릭해보세요</p>
+			</div>
+			<div class="first">
+				<p>파일을 클릭해보세요!</p>
+				<div id="a" class="a1" onclick="category('a','b')"></div>
+			</div>
+			<div class="second" id="b">
+				<div id="b1" class="b1"onmouseover="explain_over('b1','c')" onmouseout="explain_out('b1', 'c')">멸종</div>
+				<div id="b2" class="b2"onmouseover="explain_over('b2','c')" onmouseout="explain_out('b2', 'c')">멸종위기</div>
+				<div id="b3" class="b3"onmouseover="explain_over('b3','c')" onmouseout="explain_out('b3', 'c')">관찰보호</div>
+			</div>
+			<div class="explain" id="c">
+				<div id="ex"></div>
+			</div>
+	 
+        </div>
+    </section>
+    <div class="cute">
+		<div id="cute1" class="cute1" onmouseover="cute_over('cute1')" onmouseout="cute_out('cute1')"></div>
+		<div id="cute2" class="cute2" onmouseover="cute_over('cute2')" onmouseout="cute_out('cute2')"></div>
+		<div id="cute3" class="cute3" onmouseover="cute_over('cute3')" onmouseout="cute_out('cute3')"></div>
+    </div>
+    <div id="updown">
+        <div class="up"><a href="#header">§</a></div>
+        <div class="down"><a href="#footer">§</a></div>
+    </div>
+    <footer id="footer">
+        <br>성결대학교 멀티미디어공학부 20151100 엄미란 alfks7883@naver.com
+		<br>성결대학교 멀티미디어공학부 20120962 조용장 dydwkd48670@gmail.com
+    </footer>
+</body>
+</html>

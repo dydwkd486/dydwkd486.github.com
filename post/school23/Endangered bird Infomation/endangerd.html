@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Endangered bird Infomation</title>
+	<link type="text/css" rel="stylesheet" href="information_style.css">
+	<link type="text/css" rel="stylesheet" href="menu.css">
+    <link type="text/css" rel="stylesheet" href="menu2.css">
+	<script src="https://code.jquery.com/jquery-latest.js"></script> 
+	<script src="endangerd.js"></script> 
+    <script src="menu2.js"></script>
+</head>
+<body>
+	<header id="header">
+        <a href="index.html" id="logo">
+            <img src="picture/logo.png" alt="logo">
+        </a>
+        <div id="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="define1.html" class="dropbtn">개요</a>
+					<div class="dropdown-content">
+						<a href="define2.html">분류</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="extinct.html" class="dropbtn">정보</a>
+                    <div class="dropdown-content">
+                        <a href="extinct.html">멸종</a>
+                        <a href="endangerd.html">멸종위기</a>
+                        <a href="observation.html">관찰필요</a>
+                    </div>
+                </li>
+                <li><a href="youtube.html">동영상</a></li>
+                <li class="dropdown"><a href="donate.html" class="dropbtn">기부</a>
+					<div class="dropdown-content">
+                        <a href="donate.html">파랑새기부</a>
+                    </div>
+				</li>
+                <li><a href="sitemap.html">사이트맵</a></li>
+            </ul>
+        </div>
+    </header>
+    <aside>
+        <div class="accordion">
+            <ul class="side">
+                <li>
+                    <a href="extinct.html">멸종</a>
+                </li>
+                <li>
+                    <a href="endangerd.html" >멸종위기</a>
+                    <ul>
+                        <li><a href="endangerd_asia.html">아시아</a></li>
+                        <li><a href="endangerd_EU.html">유럽</a></li>
+                        <li><a href="endangerd_africa.html">아메리카</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="observation.html">관찰필요</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+	<section id="main">
+        <div class="pic" id="pic">
+			<div>멸종위기</div>
+		</div>
+		 <h2>분류</h2>
+		<div class="contents_main">
+			<div class="image_list" id="image_list_1" OnClick="location.href='endangerd_asia.html'">
+			<p>아시아 멸종위기 동물</p>
+				<div class="images" style="display:block"><img src="picture/thumbnail/멸종위기/아시아/검독수리.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아시아/넓적부리도요.jpg"  /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아시아/노랑부리백로.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아시아/저어새.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아시아/크낙새.jpg" /></div>
+			</div>
+			<div class="image_list" id="image_list_2" OnClick="location.href='endangerd_EU.html'">
+				<p>유럽 멸종위기 동물</p>
+				<div class="images" style="display:block"><img src="picture/thumbnail/멸종위기/유럽/따오기.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/유럽/매.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/유럽/이집트독수리.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/유럽/따오기.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/유럽/매.jpg" /></div>
+			</div>
+			<div class="image_list" id="image_list_3" OnClick="location.href='endangerd_africa.html'">
+				<p>아프리카 멸종위기 동물</p>
+				<div class="images" style="display:block"><img src="picture/thumbnail/멸종위기/아프리카/Cholo_Alethe.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아프리카/분홍비둘기.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아프리카/청두루미.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아프리카/태양새.jpg" /></div>
+				<div class="images"><img src="picture/thumbnail/멸종위기/아프리카/할미새사촌과.jpg" /></div>
+			</div>
+		</div>
+	</section>
+    <div class="cute">
+		<div id="cute1" class="cute1" onmouseover="cute_over('cute1')" onmouseout="cute_out('cute1')"></div>
+		<div id="cute2" class="cute2" onmouseover="cute_over('cute2')" onmouseout="cute_out('cute2')"></div>
+		<div id="cute3" class="cute3" onmouseover="cute_over('cute3')" onmouseout="cute_out('cute3')"></div>
+    </div>
+    <div id="updown">
+        <div class="up"><a href="#header">§</a></div>
+        <div class="down"><a href="#footer">§</a></div>
+    </div>
+    <footer id="footer">
+        <br>성결대학교 멀티미디어공학부 20151100 엄미란 alfks7883@naver.com
+		<br>성결대학교 멀티미디어공학부 20120962 조용장 dydwkd48670@gmail.com
+    </footer>
+<script type="text/javascript">
+	var j1 = {
+		"list_area":"image_list_1",
+		"moveAt":"50",
+		"roll_time":"3000",
+		"move_time":"100",
+		"direction":"left",
+		"label":"",
+		labelType : ""
+	};
+	new RollImage(j1);
+	var j2 = {
+		"list_area":"image_list_2",
+		"moveAt":"50",
+		"roll_time":"3000",
+		"move_time":"100",
+		"direction":"left",
+		"label":"",
+		labelType : ""
+	};
+	new RollImage(j2);
+	var j3 = {
+		"list_area":"image_list_3",
+		"moveAt":"50",
+		"roll_time":"3000",
+		"move_time":"100",
+		"direction":"left",
+		"label":"",
+		labelType : ""
+	};
+	new RollImage(j3);
+</script>
+</body>
+</html>
