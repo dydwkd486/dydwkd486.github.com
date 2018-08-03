@@ -10,6 +10,7 @@ layout: default
 
 - 개인 프로젝트이며 파일은 따로 올리겠습니다.
 
+<a href="/file/학생 수업 정보 프로그램.zip" download>학생 수업 정보 프로그램 압축파일</a>
 
 ![학생 수업 정보 프로그램](/post/img/학생 수업 정보 프로그램/슬라이드1.PNG){: .center}
 

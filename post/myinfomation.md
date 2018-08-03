@@ -4,6 +4,8 @@ layout: default
 
 ## 개인정보
 
+![조용장](/post/img/조용장.png){: .center}
+
 이름: 조용장
 
 생년월일: 1993년 03월 06일
