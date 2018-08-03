@@ -8,9 +8,11 @@ layout: default
 
 ## 프로젝트: 학생 수업 정보 프로그램
 
-- 개인 프로젝트이며 파일은 따로 올리겠습니다.
-
 <a href="/file/학생 수업 정보 프로그램.zip" download>학생 수업 정보 프로그램 압축파일</a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8MCsjBzTe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## 프레젠테이션 자료
 
 ![학생 수업 정보 프로그램](/post/img/학생 수업 정보 프로그램/슬라이드1.PNG){: .center}
 

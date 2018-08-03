@@ -4,15 +4,15 @@ layout: default
 
 ## 웹프로그래밍(1)
 
-<button type="button" onclick="window.open('/post/school23/Endangered bird Infomation/index.html') ">제작한 웹 들어가기</button>
-
 날짜 : 2016년 12월 19일 월요일 발표
 
 ## 프로젝트: Endangered bird Infomation
 
 제출 양식: 2016년도 웹프로그래밍 수업 발표 자료(.ppt), 웹페이지 (.html)
 
-5 7 9 14 16 18 20 26 28 30 31 33 34 37 39 41  파일 gif로 변경해야함.
+<button type="button" onclick="window.open('/post/school23/Endangered bird Infomation/index.html') ">제작한 웹 들어가기</button>
+
+## Endangered bird Infomation 프레젠테이션
 
 ![Endangered bird Infomation](/post/img/웹프로그래밍1/슬라이드1.BMP){: .center}
 
@@ -99,3 +99,5 @@ layout: default
 ![Endangered bird Infomation](/post/img/웹프로그래밍1/슬라이드42.BMP){: .center}
 
 ![Endangered bird Infomation](/post/img/웹프로그래밍1/슬라이드43.BMP){: .center}
+
+5 7 9 14 16 18 20 26 28 30 31 33 34 37 39 41  파일 gif로 변경해야함.
