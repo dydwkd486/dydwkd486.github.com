@@ -11,7 +11,7 @@ layout: default
 
 경진대회 소개
 
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/메인화면.jpg){: .center}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/메인화면.png){: .center}
 
 제출 양식 : 과제수행보고서(ppt)
 
@@ -19,26 +19,29 @@ layout: default
 
 ### 경기도 창업 서비스 과제수행보고서
 
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 1.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 2.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 3.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 4.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 5.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 6.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 7.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 8.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 9.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 10.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 11.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 12.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 13.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 14.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 15.jpg){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 16.jpg){: .center}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 1.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 2.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 3.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 4.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 5.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 6.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 7.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 8.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 9.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 10.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 11.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 12.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 13.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 14.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 15.jpg){: .center style="width: 1000px"}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/슬라이드 16.jpg){: .center style="width: 1000px"}
+
 
 ### 증빙 자료
 ![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/참가확인서.PNG){: .center}
-![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/참여사진나동글.png){: .center}
+![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/참여사진나동글.png){: .center style="width: 1000px"}
+
+
 
 ### 경진대회에서 아쉬운점
 ![경기 빅데이터 경진대회](/post/img/경기빅데이터경진대회/아쉬움점.png){: .center}
