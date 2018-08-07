@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>조용장 포트폴리오</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/league.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,9 +24,20 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-				<section>Slide 3</section>
+				<section>
+					<small>2018년도 포트폴리오</small>
+					<h3>누나 소리듣는 남자 개발자</h3>
+					<p>
+						<small> <a href="http://hakim.se">조용장</a></small>
+					</p>
+				</section>
+				<section>
+					<section>Slide 2</section>
+					<section>Slide 2-1</section>
+				</section>
+
+
+				<section data-markdown>Slide 3</section>
 				<section>Slide 4</section>
 			</div>
 		</div>
@@ -43,6 +54,7 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
