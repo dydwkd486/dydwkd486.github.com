@@ -1,0 +1,26 @@
+---
+common-css:
+  - "/blog/css/bootstrap.min.css"
+  - "/blog/css/main-minimal.css"
+common-js:
+  - "/blog/js/jquery-1.11.2.min.js"
+  - "/blog/js/bootstrap.min.js"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include blog/head.html %}
+
+  <body>
+
+    <div role="main" class="container main-content">
+      {{ content }}
+    </div>
+
+    {% include blog/footer-minimal.html %}
+
+    {% include blog/footer-scripts.html %}
+
+  </body>
+</html>
